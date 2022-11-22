@@ -1,0 +1,9 @@
+footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a.text-reset {
+    margin-left: 6px;
+}
