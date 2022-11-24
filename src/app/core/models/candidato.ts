@@ -4,7 +4,9 @@ interface Candidato {
     id: string,
     cedula: string,
     resolucion: string,
-    partido: Partido[]
+    nombre: string,
+    apellido: string,
+    partido: Partido
 }
 
 export {Candidato}

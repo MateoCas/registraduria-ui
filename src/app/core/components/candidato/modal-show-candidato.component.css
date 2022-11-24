@@ -1,0 +1,28 @@
+button {
+  background-color: #A2A2A2 !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: larger;
+  width: 106px;
+  height: 55px;
+  text-align: center !important;
+}
+
+button:hover {
+  background-color: #A2A2A2 !important;
+  border: 1px solid #FDC50C;
+  color: #FDC50C;
+  font-size: larger;
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+input {
+  padding-bottom: 10px;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}

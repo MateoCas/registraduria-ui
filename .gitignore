@@ -43,3 +43,5 @@ Thumbs.db
 
 #node_modules
 .node_modules
+/target
+package-lock.json

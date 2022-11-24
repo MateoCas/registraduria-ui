@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CoreModule } from '../core/core.module';
 import { RouterModule } from '@angular/router';
 import { CandidatoComponent } from '../core/components/candidato/candidato.component';
+import { AuthGuardService } from '../shared/services/auth-guard.service';
 
 
 
@@ -17,7 +18,7 @@ import { CandidatoComponent } from '../core/components/candidato/candidato.compo
     CommonModule,
     CoreModule,
     RouterModule.forChild([
-      {path: 'candidatos', component: CandidatoComponent}
+      {path: 'candidatos', component: CandidatoComponent, canActivate: [AuthGuardService]}
     ])
   ],
   exports:[

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CandidatoComponent } from './components/candidato/candidato.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -9,10 +10,12 @@ import { CandidatoComponent } from './components/candidato/candidato.component';
     CandidatoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
-    CandidatoComponent
+    CandidatoComponent,
+    SharedModule
   ]
 })
 export class CoreModule { }

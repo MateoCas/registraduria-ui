@@ -1,0 +1,76 @@
+.table {
+  background-color: #FAFAFA;
+}
+
+.table .thead {
+  background-color: #A2A2A2;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table .tbody {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tbody .input-product-amount {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.table .tbody th {
+  font-weight: 800;
+
+}
+
+tr {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+p {
+  font-size: large;
+}
+
+thead, tbody, tfoot, tr, td, th {
+  border-color: inherit;
+  border-style: dashed;
+  border-width: 0;
+}
+
+.table th, .table td {
+  padding: 0.7rem 0.7rem;
+}
+
+.table-wrapper {
+  position: relative;
+}
+
+.table-scroll {
+  height: 500px;
+  overflow: auto;
+}
+
+.btn .edit {
+  text-align: center;
+}
+
+button {
+  background-color: #A2A2A2 !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: larger;
+  width: 106px;
+  height: 55px;
+  text-align: center !important;
+}
+
+button:hover {
+  background-color: #A2A2A2 !important;
+  border: 1px solid #FDC50C;
+  color: #FDC50C;
+  font-size: larger;
+}
+
+.fa {
+  font-size: x-large !important;
+}
