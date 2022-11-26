@@ -6,8 +6,6 @@ import { ErrorModalContentComponent } from './components/error-modal-content/err
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 
-
-
 @NgModule({
   declarations: [
     LoginComponent,
@@ -24,8 +22,8 @@ import { FormsModule } from '@angular/forms';
   exports: [
     NgbModule,
     CommonModule,
-    FormsModule,
-    ErrorModalContentComponent
+    ErrorModalContentComponent,
+    FormsModule
   ]
 })
 export class SharedModule { }

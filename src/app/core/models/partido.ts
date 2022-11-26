@@ -1,5 +1,5 @@
 interface Partido {
-    id: string,
+    _id: string,
     nombre: string,
     lema: string
 }
